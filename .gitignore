@@ -36,3 +36,9 @@
 /robots.txt
 /update.php
 /web.config
+
+# Drupal scaffold files
+/modules/
+/profiles/
+/sites/
+/themes/
