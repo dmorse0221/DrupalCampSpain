@@ -89,8 +89,14 @@
  * @endcode
  */
 $databases['default']['default'] = [
-  'driver' => 'sqlite',
-  'database' => '../drupal.sqlite',
+  'database' => 'drupal',
+  'username' => 'drupal',
+  'password' => 'drupal',
+  'prefix' => '',
+  'host' => 'localhost',
+  'port' => '3306',
+  'namespace' => 'Drupal\\mysql\\Driver\\Database\\mysql',
+  'driver' => 'mysql',
 ];
 
 $settings['config_sync_directory'] = '../config/sync';
