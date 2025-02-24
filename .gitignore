@@ -42,3 +42,7 @@
 /profiles/
 /sites/
 /themes/
+
+# Development files
+cookies.txt
+drupal.sqlite
