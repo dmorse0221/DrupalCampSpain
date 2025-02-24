@@ -16,22 +16,27 @@
         }
     ],
     "require": {
-        "php": ">=7.4",
-        "composer/installers": "^1.9",
+        "php": ">=8.1",
+        "composer/installers": "^2.0",
         "cweagans/composer-patches": "^1.7",
-        "drupal/admin_toolbar": "^2.0",
-        "drupal/color_field": "^2.4",
-        "drupal/core": "~9.4.0",
-        "drupal/core-composer-scaffold": "~9.4.0",
-        "drupal/core-recommended": "~9.4.0",
-        "drupal/layout_builder_modal": "^1.0",
-        "drupal/layout_builder_restrictions": "^2.8",
-        "drupal/pathauto": "^1.8",
-        "drush/drush": "^10.0.0",
-        "symfony/process": "~4.4.0",
-        "vlucas/phpdotenv": "^4.0",
+        "drupal/admin_toolbar": "^3.4",
+        "drupal/ckeditor": "^1.0",
+        "drupal/color_field": "^3.0",
+        "drupal/core": "^10.1",
+        "drupal/core-composer-scaffold": "^10.1",
+        "drupal/core-recommended": "^10.1",
+        "drupal/layout_builder_modal": "^1.2",
+        "drupal/layout_builder_restrictions": "^2.20",
+        "drupal/pathauto": "^1.13",
+        "drupal/rdf": "^2.1",
+        "drush/drush": "^12.0",
+        "symfony/console": "^6.4",
+        "symfony/filesystem": "^6.4",
+        "symfony/finder": "^6.4",
+        "symfony/process": "^6.4",
+        "symfony/yaml": "^6.4",
+        "vlucas/phpdotenv": "^5.0",
         "webflo/drupal-finder": "^1.0.0",
-        "webmozart/path-util": "^2.3",
         "zaporylie/composer-drupal-optimizations": "^1.0"
     },
     "conflict": {
@@ -45,6 +50,9 @@
             "dealerdirect/phpcodesniffer-composer-installer": true,
             "drupal/console-extend-plugin": true,
             "drupal/core-composer-scaffold": true,
+            "php-http/discovery": true,
+            "phpstan/extension-installer": true,
+            "tbachert/spi": true,
             "zaporylie/composer-drupal-optimizations": true
         }
     },
@@ -89,5 +97,8 @@
                 ".gitattributes": "../.gitattributes"
             }
         }
+    },
+    "require-dev": {
+        "drupal/core-dev": "^10.1"
     }
 }
