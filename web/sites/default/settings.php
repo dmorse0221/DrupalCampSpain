@@ -88,7 +88,12 @@
  * ];
  * @endcode
  */
-$databases = [];
+$databases['default']['default'] = [
+  'driver' => 'sqlite',
+  'database' => '../drupal.sqlite',
+];
+
+$settings['config_sync_directory'] = '../config/sync';
 
 /**
  * Customizing database settings.
