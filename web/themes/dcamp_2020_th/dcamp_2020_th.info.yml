@@ -1,12 +1,11 @@
 name: 'DrupalCamp 2020 theme'
 type: theme
 description: 'DrupalCamp 2020 theme'
-base theme: classy
+base theme: stable9
 version: 1.0.0
 core_version_requirement: ^8.9 || ^9 || ^10
 
 libraries:
-  - dcamp_2020_th/waypoints
   - dcamp_2020_th/dcamp_2020_th_core_library
 
 regions:

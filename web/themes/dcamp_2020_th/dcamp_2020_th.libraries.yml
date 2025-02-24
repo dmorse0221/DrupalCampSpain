@@ -8,6 +8,7 @@ dcamp_2020_th_core_library:
     - core/jquery
     - core/drupal
     - core/drupalSettings
+    - core/once
 
 region-header:
   js:
@@ -52,3 +53,21 @@ block-type-call-to-action-style-1:
     - core/jquery
     - core/drupal
     - core/drupalSettings
+tabledrag:\n  version: VERSION\n  css:\n    component:\n      css/components/tabledrag.css: {}
+tabledrag:
+  version: VERSION
+  css:
+    component:
+      css/components/tabledrag.css: {}
+
+drupal.dialog:
+  version: VERSION
+  css:
+    theme:
+      css/components/ui-dialog.css: {}
+
+drupal.message:
+  version: VERSION
+  css:
+    component:
+      css/components/messages.css: {}
